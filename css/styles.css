@@ -11,6 +11,10 @@ body {
   margin: 0;
   font-family: 'Playfair Display', serif;
   background-color: #f4f1ec; 
+  background-image: url('assets/bg8.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .navbar {
