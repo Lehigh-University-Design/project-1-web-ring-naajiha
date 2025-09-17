@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>  
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script> <!-- for icons -->                    
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="nav-left">
+              <span class="logo-symbol">✦</span>
+              <span class="logo-text">Bangla Bari</span>
+            </div>
+            
+            <!-- <nav class="nav-center">
+              <a href="page2.html">History</a>
+              <a href="#">Photo Gallery</a>
+              <a href="#">Reference</a>
+            </nav> -->
+            
+            <div class="nav-right">
+              <!-- <a href="#"><i class="fas fa-search"></i></a>
+              <a href="#"><i class="fas fa-shopping-bag"></i></a> -->
+              <a href="history.html">History</a>
+              <a href="index.html">Practice</a>
+              <a href="reference.html">Reference</a>
+            </div>
+          </header>
+        
+          <hr class="divider" />
+        <main>
+            <!-- <div id="head">
+                <div>
+                    <h3><a href="../">বংশাবলি</a></h3>
+                </div>
+                <div class="sub-head"><h3>CSS Exercise 1: Selectors</h3></div>
+            </div> -->
+
+            <!-- VOWELS SECTION -->
+            <div class="section">
+                <h2 class="section-title">স্বরবর্ণ (Vowels)</h2>
+                <div class="flashcards-grid vowels-grid">
+                    <!-- Row 1 -->
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">া</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">aa</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ি</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">i</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ী</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">ee</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ু</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">u</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ূ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">oo</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ঁ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">an</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ে</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">ae</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ৈ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">aae</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 3 -->
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ো</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">o</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ৌ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">au</div>
+                                <div class="card-content-back">au</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ৃ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">ri</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Empty cells to complete the grid -->
+                    
+                    <div class="empty-cell"></div>
+                </div>
+            </div>
+            
+            <!-- CONSONANTS SECTION -->
+            <div class="section">
+                <h2 class="section-title">সব্যঞ্জনবর্ণ  (Consonants)</h2>
+                <div class="flashcards-grid vowels-grid">
+                    <!-- Row 1 -->
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ব</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">ba</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ঙ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">ng</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ল</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">l</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ম</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">m</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ন</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">n</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ক</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">k</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ফ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">f</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">জ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">j</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 3 -->
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">য়</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">y</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">র</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">r</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">গ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">g</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">হ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">h</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row 4 -->
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ভ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">bh</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">চ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">ch</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ণ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">n</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">প</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">p</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row 5 -->
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ছ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">chh</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">শ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">sh</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">থ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">th</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">স</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">s</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row 6 -->
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">দ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">the</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ট</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">t</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ঠ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">tth</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ত</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">t'</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row 7 -->
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ঘ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">gh</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ড</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">d</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ষ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">shh</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ড়</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">aD</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row 8 -->
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ধ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">thhe</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">খ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">kh</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ঝ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">jh</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ঞ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">n</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 9 -->
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ঢ়</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">aDH</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" onclick="flipCard(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front vowel-front">
+                                <div class="card-content-front">ঢ</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-content-back">ddh</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Empty cells to complete the grid -->
+                    
+                    <div class="empty-cell"></div>
+                    <div class="empty-cell"></div>
+                </div>
+            </div>
+            
+
+            
+        </main>
+
+        
+        <!-- <div class="column-demo-holder">
+            <div id="head">
+                <div>
+                    <h3><a href="../">Geneology</a></h3>
+                </div>
+                <div class="sub-head"><h3>CSS Exercise 1: Selectors</h3></div>
+           
+            </div>
+          
+            <div class="masthead">Masthead</div>
+
+            <div class="article">
+                <div class="box">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="assets/front1.png" alt="Front" />
+                          </div>
+                          <div class="flip-card-back">
+                            <img src="assets/back1.jpg" alt="Back" />
+                            <div class="front-text">Bangladesh Genocide</div> -->
+                            <!-- or you can put text instead -->
+                            <!-- <h2>Back Side</h2> -->
+                          <!-- </div>
+                        </div>
+                      </div>
+                </div>
+
+
+
+
+
+
+                
+                <div class="box">Game 2</div>
+                <div class="box">Game 3</div>
+            </div>
+
+            <div class="side-nav">Side Nav</div>
+        </div>
+
+        
+        <p><a href="page2.html">View Image Gallery →</a></p> -->
+    </body>
+
+    <!-- <audio controls>
+        <source src="./audio/simple-and-clean.mp3" type="audio/mpeg">
+    </audio> -->
+   
+    
+
+    <style>
+        body {
+        background-image: url('assets/bg8.svg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        }
+    </style>
+</html>
